@@ -1,0 +1,18 @@
+{
+  "session_id": "ecc-autospawn",
+  "deliver": false,
+  "tasks": [
+    {
+      "agent": "planner",
+      "message": "Create a plan for the task in this repo"
+    },
+    {
+      "agent": "builder",
+      "message": "Implement the plan with clean commits"
+    },
+    {
+      "agent": "reviewer",
+      "message": "Review for correctness and risks"
+    }
+  ]
+}
